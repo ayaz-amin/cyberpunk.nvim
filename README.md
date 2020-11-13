@@ -7,7 +7,7 @@ Add the following to your ```.vimrc``` or ```init.vim```:
 
 ```
 call plug#begin()
-Plug 'ayaz-amin/cyberpunk.nvim'
+Plug 'ayaz-amin/cyberpunk.nvim' , {'branch' : 'main'}
 call plug#end()
 
 autocmd vimenter * colorscheme cyberpunk
